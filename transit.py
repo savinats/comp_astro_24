@@ -17,7 +17,7 @@ params.w = 41.                        #longitude of periastron (in degrees)
 #Here i assume that the time of the first transit is the time of inferior conjuction
 #I converted the planet radius to stellar radii bc the encyclopedia had it in jupiter radii  
 
-t = np.linspace(2400000, t0, 2500000)  #times at which to calculate light curve
+t = np.linspace(2400000, params.t0, 2500000)  #times at which to calculate light curve
 m = batman.TransitModel(params, t)     #initializes model
 
 flux = m.light_curve(params)           #calculates light curve
