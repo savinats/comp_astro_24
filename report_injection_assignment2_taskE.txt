@@ -1,0 +1,30 @@
+Kernel: linear
+Train Precision: 0.5624139964615688
+Dev Precision: 0.5543859649122806
+Confusion Matrix (Train):
+[[   0 2226]
+ [   0 2861]]
+Confusion Matrix (Dev):
+[[  0 254]
+ [  0 316]]
+--------------------------------------------------
+Kernel: rbf
+Train Precision: 0.5653296266878475
+Dev Precision: 0.5543859649122806
+Confusion Matrix (Train):
+[[  37 2189]
+ [  14 2847]]
+Confusion Matrix (Dev):
+[[  0 254]
+ [  0 316]]
+--------------------------------------------------
+Kernel: poly
+Train Precision: 0.5687980574666127
+Dev Precision: 0.5597345132743363
+Confusion Matrix (Train):
+[[  95 2131]
+ [  50 2811]]
+Confusion Matrix (Dev):
+[[ 55 199]
+ [ 63 253]]
+--------------------------------------------------
