@@ -1,0 +1,18 @@
+Kernel: Linear
+Confusion Matrix:
+[[552  13]
+ [  5   0]]
+Precision: 0.9910
+----------------------------------------
+Kernel: Gaussian
+Confusion Matrix:
+[[565   0]
+ [  5   0]]
+Precision: 0.9912
+----------------------------------------
+Kernel: Polynomial
+Confusion Matrix:
+[[565   0]
+ [  5   0]]
+Precision: 0.9912
+----------------------------------------
