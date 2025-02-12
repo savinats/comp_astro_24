@@ -1,0 +1,20 @@
+MASCARA-3b Forward Model Parameters 
+
+Planet Name: MASCARA-3b
+Planetary Mass: 5.18 Jupiter Masses
+Planetary Radius: 1.272 Jupiter Radii
+Atmospheric Temperature: 1458 K
+Stellar Temperature: 6347 K
+
+Chemistry Parameters:
+Fill Gases: H2, He
+Mixing Ratios:
+ - H2O: 1.2e-4
+ - CH4: 3.4e-6
+ - CO2: 5.6e-5
+ - CO: 7.8e-7
+Min Pressure: 1e-0 
+Max Pressure: 1e6 
+Atmospheric Layers: 100
+
+Model Type: Transmission
