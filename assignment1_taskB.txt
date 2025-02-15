@@ -1,4 +1,3 @@
-i
 Last commit hash: a449a0fe374a416631f232c427ff506c29e8436b
 Last commit date: Thu Oct 24 15:54:09 2024 +0200
 
