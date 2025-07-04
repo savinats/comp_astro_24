@@ -1,0 +1,12 @@
+Assignment 2 Task F
+
+Confusion Matrix (Train):
+[[5049    1]
+ [   0   37]]
+
+Confusion Matrix (Dev):
+[[558   7]
+ [  0   5]]
+
+Precision (Train): 0.9736842105263158
+Precision (Dev):   0.4166666666666667
