@@ -1,0 +1,13 @@
+Assignment 2 Task G
+
+Confusion Matrix (Train):
+[[ 265 1961]
+[ 165 2696]]
+
+Confusion Matrix (Dev):
+[[ 0 254]
+[ 0 316]]
+
+Precision (Train): 0.578913463603178
+Precision (Dev): 0.5543859649122806
+
