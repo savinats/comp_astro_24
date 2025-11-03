@@ -1,5 +1,5 @@
 # Computational Astrophysics – Exoplanet Detection & Atmospheric Retrieval  
-Final project for *Computational Astrophysics (Physics of Data, UNIPD)  
+Final project for *Computational Astrophysics (Physics of Data, UNIPD)*
 Authors: Savina Tsichli, Marco Foster — July 2025
 
 ## Overview
