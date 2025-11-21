@@ -12,4 +12,4 @@ Tasks covered:
 - Systems studied: **MASCARA-3Ab** (synthetic modeling) and **WASP-39b** (real JWST spectrum)
 
 ## Final Report
-https://www.overleaf.com/project/6863e69a6f48a7887f7a54c9
+file "compas.pdf"
