@@ -17,3 +17,81 @@ detection:
     device: "cpu"
     dream: true
     n_images: 16
+   
+atmosphere:
+ paths:
+  xsec_path: "C:\\Users\\Student\\Documents\\comp_astro_24\\xsecs"
+  cia_path: "C:\\Users\\Student\\Documents\\comp_astro_24\\cia\\hitran"
+
+    
+ planet:
+   radius: 1.272
+   mass: 5.18
+    
+ star:
+   temperature: 6347
+   radius: 1
+
+ chemistry:                           
+  fill_gases: [H2, He]
+  ratio: 0.25
+  gases:
+   H2O: 1e-4
+   CH4: 1e-6
+   CO2: 1e-7
+   CO: 1e-5
+
+ pressure:                          
+  atm_min_pressure: 1e0
+  atm_max_pressure: 1e6
+  nlayers: 100
+
+ temperature:
+  profile_type: isothermal          
+  T: 1458
+
+ model:                               
+  model_type: transmission
+  contributions: [Absorption, Rayleigh, CIA] 
+  
+ output:
+  spectrum: 3_taskE_spectrum.dat
+  parameters: 3_taskE_parameters.txt
+
+ retrieval:
+  input_spectrum: 3_taskE_spectrum.dat
+  output_spectrum: retrieved_spectrum.dat
+  
+  optimizer:                          
+   optimizer_type: nestle
+
+  free_parameters:                   
+   T:
+    prior_type: log-uniform
+    min: 500
+    max: 3000
+
+   planet_radius:
+    prior_type: uniform
+    min: 0.8
+    max: 2.0
+
+   H2O:
+    prior_type: log-uniform
+    min: 1e-10
+    max: 1e-2
+
+   CH4:
+    prior_type: log-uniform
+    min: 1e-10
+    max: 1e-5
+
+   CO2:
+    prior_type: log-uniform
+    min: 1e-10
+    max: 1e-5
+
+   CO:
+    prior_type: log-uniform
+    min: 1e-10
+    max: 1e-4
