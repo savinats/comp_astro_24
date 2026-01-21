@@ -1,0 +1,28 @@
+Forward Model Parameters for MASCARA-3 Ab
+==========================================
+
+Planet Parameters:
+  Mass: 5.18 MJ
+  Radius: 1.272 RJ
+  Temperature: 1458 K
+
+Star Parameters:
+  Temperature: 6347 K
+  Radius: 1.513 RS
+
+Chemistry:
+  H2O: 1.2e-4
+  CH4: 3.4e-6
+  CO2: 5.6e-5
+  CO: 7.8e-7
+  Fill gases: H2, He (ratio 0.25)
+
+Atmosphere:
+  Pressure range: 1e0 to 1e6 Pa
+  Number of layers: 100
+  Temperature profile: Isothermal
+
+Model:
+  Type: Transmission
+  Wavelength range: 0.6-5.0 μm
+  Number of points: 1000

@@ -1,0 +1,30 @@
+TASK C: ATMOSPHERIC RETRIEVAL RESULTS
+======================================
+
+Input Parameters (Forward Model):
+----------------------------------
+planet_radius: 1.272000 RJ
+T: 1458.000000 K
+log_H2O: -3.920819
+
+Retrieved Parameters:
+--------------------
+planet_radius: 1.272014 +0.000516 -0.000352 RJ
+T: 1455.908720 +50.037774 -88.097557 K
+log_H2O: -3.915490 +0.226276 -0.218694
+
+Fixed Parameters:
+-----------------
+CH4: 3.4e-06
+CO2: 5.6e-05
+CO: 7.8e-07
+planet_mass: 5.18 MJ
+star_temperature: 6347 K
+star_radius: 1.513 RS
+
+Retrieval Settings:
+-------------------
+Optimizer: Nestle
+Number of live points: 50
+Total samples: 994
+Valid samples: 620

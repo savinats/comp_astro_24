@@ -1,0 +1,40 @@
+TASK D: WASP-39 b REAL DATA RETRIEVAL RESULTS (343 data points)
+================================================================
+Retrieved Parameters:
+-------------------------------
+planet_radius: 1.224510 +0.002888 -0.011356 RJ
+T: 805.307896 +103.650091 -4.272659 K
+log_H2O: -1.198690 +0.123474 -0.143911
+log_CH4: -9.066979 +1.914933 -1.901697
+log_CO2: -2.859945 +0.404047 -0.294803
+log_CO: -8.083775 +2.913636 -2.516898
+log_SO2: -4.111751 +2.066214 -5.185481
+
+Linear Abundances:
+------------------
+H2O: 6.3e-2 (6.3%) - STRONG DETECTION
+CH4: 8.6e-10 (trace, poorly constrained)
+CO2: 1.4e-3 (0.14%) - MODERATE DETECTION
+CO: 8.2e-9 (trace, poorly constrained)
+SO2: 7.7e-5 (trace, poorly constrained)
+
+Fixed Parameters:
+-------------------------------
+planet_mass: 0.28 MJ
+star_temperature: 5400 K
+star_radius: 0.90 RS
+H2/He ratio: 0.25
+
+Retrieval Settings:
+-------------------
+Optimizer: Nestle
+Number of live points: 100
+Total samples: 2615
+Valid samples: 2217
+Data: Real JWST NIRSpec G395H spectrum (WASP-39 b)
+Wavelength range: 2.77-5.17 microns
+Number of data points: 343
+Resolution: R~400
+Number of fitted parameters: 7
+Temperature bounds: 800-1300 K
+Atmospheric layers: 30

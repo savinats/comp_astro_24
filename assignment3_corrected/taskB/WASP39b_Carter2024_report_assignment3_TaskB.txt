@@ -1,0 +1,30 @@
+WASP-39 b System Parameters and Atmospheric Chemistry
+Paper: "A benchmark JWST near-infrared spectrum for the exoplanet WASP-39 b"
+
+Physical Parameters (from observations):
+-----------------------------------------
+Planet Mass: 0.28 MJ (Jupiter masses)
+Planet Radius: 1.27 RJ (Jupiter radii) 
+Equilibrium Temperature: ~1100 K
+Orbital Period: 4.055 days (constrained to subsecond precision)
+
+Star Parameters:
+----------------
+Stellar Temperature: 5400 K 
+Stellar Radius: 0.90 RS (solar radii)
+
+Atmospheric Chemistry (JWST Detections):
+----------------------------------------
+Confirmed molecular species detected:
+- H2O (water): ~5.0% abundance -
+- CO2 (carbon dioxide): Detected
+- SO2 (sulfur dioxide): Detected 
+- Na (sodium): Detected
+- K (potassium): Detected
+- CO (carbon monoxide): Detected
+
+Atmospheric Properties:
+-----------------------
+Metallicity: ~10× solar (range from initial releases: 3-100× solar)
+Carbon-to-Oxygen Ratio (C/O): ~0.35 (subsolar)
++ there is evidence for a cloudy atmosphere  
