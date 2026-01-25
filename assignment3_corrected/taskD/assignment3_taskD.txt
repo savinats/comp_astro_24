@@ -1,40 +1,73 @@
-TASK D: WASP-39 b REAL DATA RETRIEVAL RESULTS (343 data points)
-================================================================
+============================================================
+WASP-39 b ATMOSPHERIC RETRIEVAL RESULTS
+============================================================
+
 Retrieved Parameters:
--------------------------------
-planet_radius: 1.224510 +0.002888 -0.011356 RJ
-T: 805.307896 +103.650091 -4.272659 K
-log_H2O: -1.198690 +0.123474 -0.143911
-log_CH4: -9.066979 +1.914933 -1.901697
-log_CO2: -2.859945 +0.404047 -0.294803
-log_CO: -8.083775 +2.913636 -2.516898
-log_SO2: -4.111751 +2.066214 -5.185481
+------------------------------------------------------------
 
-Linear Abundances:
-------------------
-H2O: 6.3e-2 (6.3%) - STRONG DETECTION
-CH4: 8.6e-10 (trace, poorly constrained)
-CO2: 1.4e-3 (0.14%) - MODERATE DETECTION
-CO: 8.2e-9 (trace, poorly constrained)
-SO2: 7.7e-5 (trace, poorly constrained)
+T:
+  Value:  804.655466
+  Upper:  +5.871308
+  Lower:  -3.298264
 
-Fixed Parameters:
--------------------------------
-planet_mass: 0.28 MJ
-star_temperature: 5400 K
-star_radius: 0.90 RS
-H2/He ratio: 0.25
+Log Co:
+  Value:  -9.953518
+  Upper:  +2.076467
+  Lower:  -1.297512
+  CO abundance: 1.113e-10 (+1.316e-08, -1.057e-10)
 
-Retrieval Settings:
--------------------
-Optimizer: Nestle
-Number of live points: 100
-Total samples: 2615
-Valid samples: 2217
-Data: Real JWST NIRSpec G395H spectrum (WASP-39 b)
-Wavelength range: 2.77-5.17 microns
-Number of data points: 343
-Resolution: R~400
-Number of fitted parameters: 7
-Temperature bounds: 800-1300 K
-Atmospheric layers: 30
+Log Co2:
+  Value:  -4.944026
+  Upper:  +0.079715
+  Lower:  -0.039908
+  CO2 abundance: 1.138e-05 (+2.292e-06, -9.987e-07)
+  CO2 (%): 0.0011% (+0.0002%, -0.0001%)
+
+Log H2O:
+  Value:  -3.565106
+  Upper:  +0.095838
+  Lower:  -0.092424
+  H2O abundance: 2.722e-04 (+6.721e-05, -5.218e-05)
+  H2O (%): 0.0272% (+0.0067%, -0.0052%)
+
+Log K:
+  Value:  -2.048998
+  Upper:  +0.035464
+  Lower:  -0.074147
+  K abundance: 8.933e-03 (+7.601e-04, -1.402e-03)
+  K (%): 0.8933% (+0.0760%, -0.1402%)
+
+Log Na:
+  Value:  -2.080393
+  Upper:  +0.059391
+  Lower:  -0.108525
+  NA abundance: 8.310e-03 (+1.218e-03, -1.837e-03)
+  NA (%): 0.8310% (+0.1218%, -0.1837%)
+
+Log So2:
+  Value:  -2.058638
+  Upper:  +0.041564
+  Lower:  -0.062682
+  SO2 abundance: 8.737e-03 (+8.775e-04, -1.174e-03)
+  SO2 (%): 0.8737% (+0.0877%, -0.1174%)
+
+Planet Radius:
+  Value:  1.238850
+  Upper:  +0.000768
+  Lower:  -0.001090
+
+============================================================
+SUMMARY:
+------------------------------------------------------------
+Planet Radius: 1.239 (+0.001, -0.001) RJ
+Temperature:   804.7 (+5.9, -3.3) K
+
+Molecular Detections:
+  H2O: 0.0272%
+  Na: 0.8310%
+  K: 0.8933%
+  CO2: 0.0011%
+  CO: 1.113e-10 (trace/unconstrained)
+  SO2: 0.8737%
+
+============================================================
