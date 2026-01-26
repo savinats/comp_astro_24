@@ -1,0 +1,82 @@
+============================================================
+WASP-39b_retreival
+Final Retrieval 
+============================================================
+
+RETRIEVED PARAMETERS:
+------------------------------------------------------------
+
+T:
+  Value:  801.557109
+  Upper:  +2.208074
+  Lower:  -1.087928
+
+Log Ch4:
+  Value:  -9.618402
+  Upper:  +1.669280
+  Lower:  -1.486042
+  CH4 abundance: 2.408e-10 (+1.100e-08, -2.329e-10)
+
+Log Co:
+  Value:  -9.058708
+  Upper:  +2.184630
+  Lower:  -1.877690
+  CO abundance: 8.736e-10 (+1.328e-07, -8.620e-10)
+
+Log Co2:
+  Value:  -2.944079
+  Upper:  +0.148532
+  Lower:  -0.141178
+  CO2 abundance: 1.137e-03 (+4.638e-04, -3.157e-04)
+  CO2 (%): 0.1137% (+0.0464%, -0.0316%)
+
+Log H2O:
+  Value:  -1.300952
+  Upper:  +0.058052
+  Lower:  -0.041892
+  H2O abundance: 5.001e-02 (+7.152e-03, -4.598e-03)
+  H2O (%): 5.0009% (+0.7152%, -0.4598%)
+
+Log So2:
+  Value:  -2.035541
+  Upper:  +0.026729
+  Lower:  -0.070171
+  SO2 abundance: 9.214e-03 (+5.849e-04, -1.375e-03)
+  SO2 (%): 0.9214% (+0.0585%, -0.1375%)
+
+Planet Radius:
+  Value:  1.226926
+  Upper:  +0.001010
+  Lower:  -0.001130
+
+============================================================
+SUMMARY:
+------------------------------------------------------------
+Planet Radius: 1.227 (+0.001, -0.001) RJ
+Temperature:   801.6 (+2.2, -1.1) K
+
+Molecular Detections:
+  H2O: 5.0009%
+  CH4: 2.408e-10 (trace/unconstrained)
+  CO2: 0.1137%
+  CO: 8.736e-10 (trace/unconstrained)
+  SO2: 0.9214%
+
+============================================================
+
+Fixed Parameters:
+------------------------------------------------------------
+planet_mass: 0.28 MJ
+star_temperature: 5400 K
+star_radius: 0.90 RS
+H2/He ratio: 0.25
+
+Retrieval Settings:
+------------------------------------------------------------
+Optimizer: Nestle
+Number of live points: 100
+Data: Real JWST NIRSpec G395H spectrum (WASP-39 b)
+Wavelength range: 2.77-5.17 microns
+Number of data points: 343
+Temperature bounds: 800-1300 K
+Atmospheric layers: 30
